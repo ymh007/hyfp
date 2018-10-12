@@ -1,0 +1,401 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+input, button, select, textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+/*背景*/
+body {
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+/*content*/
+.content {
+    height: 630px;
+    width: 1366px;
+    margin: 0 auto;
+    padding-top: 1px;
+    position: relative;
+}
+
+.text {
+    width: 1200px;
+    overflow-x: hidden;
+    margin: 20px auto;
+}
+
+    .text img {
+        width: 450px;
+    }
+
+.login {
+    width: 400px;
+    height: 355px;
+    background: rgba(72, 72,72, 0.7);
+    box-shadow: 0 0 10px 5px #468fbe;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*左边的三角*/
+.login-left {
+    position: relative;
+}
+
+.sanjiao {
+    width: 0;
+    height: 0;
+    border: 17px solid transparent;
+    border-right-color: #EAF6FC;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.login-right {
+    width: 400px;
+    height: 100%;
+    padding: 30px 50px;
+}
+/*login start*/
+.top {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+    .top span:nth-child(1) {
+        font-size: 23px;
+        color: #B7883E;
+    }
+
+    .top span:nth-child(2) {
+        font-size: 20px;
+        color: #ccc;
+    }
+/*账号 密码输入框*/
+.login-input {
+    margin-top: 15px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #BAC7D2;
+    position: relative;
+}
+
+.icon {
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background: #188eee;
+    vertical-align: middle;
+}
+
+    .icon img {
+        width: 20px;
+    }
+
+.login-input input {
+    height: 100%;
+    width: 260px;
+    border: 0;
+    background: #fff;
+    list-style: none;
+    outline-style: none;
+    font-size: 15px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#login .login-input:nth-child(3) {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    position: relative;
+}
+
+    #login .login-input:nth-child(3) input {
+        width: 130px;
+        height: 40px;
+        background: #ffffff;
+        text-align: center;
+        font-size: 17px;
+        color: #333;
+        padding: 0 15px;
+        margin-right: 20px;
+    }
+
+.yan-ma {
+    width: 20%;
+    height: 30px;
+    background: #ccc;
+    margin-top: 5px;
+}
+
+#login .login-input:nth-child(3) a {
+    color: #fff;
+    font-size: 12px;
+    width: 55px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 5px;
+}
+/*登录按钮*/
+/*注册 登录*/
+.login-bottom {
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.pass {
+    padding: 0;
+    margin-left: 0;
+}
+
+#login-sub {
+    width: 300px;
+    height: 40px;
+    background: deepskyblue;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 0;
+    border: 0;
+    outline-style: none;
+}
+
+#btnSubmit {
+    width: 300px;
+    height: 40px;
+    background: deepskyblue;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 0;
+    border: 0;
+    outline-style: none;
+}
+
+.heig {
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.login-bottom .heig:nth-child(3) {
+    margin-left: 40px;
+}
+
+.login-bottom input {
+    width: 20px;
+    height: 20px;
+    background: none;
+    margin-top: 10px;
+}
+/*提示信息框*/
+.login-none, .pass-none {
+    display: none;
+}
+
+.login-zi1 {
+    font-size: 13px;
+    color: red;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+}
+
+#login .login-input:nth-child(3) {
+    width: 100%;
+    height: 35px;
+    border: 0;
+    position: relative;
+}
+
+.login-tips p {
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #83b7ce;
+    vertical-align: middle;
+    zoom: 1;
+    *display: inline;
+    margin-top:5px;
+    margin-left:10px;
+}
+
+/* @media screen and (max-width: 1366px){ */
+/*     .content{ */
+/*         width: 680px;height: 470px; */
+/*         position: absolute; */
+/*         left: 0;bottom: 0; */
+/*         top: 0;right: 0; */
+/*         margin: auto; */
+/*     } */
+/*     .text{ */
+/*         width: 400px; */
+/*         margin:  0 auto; */
+/*         margin-bottom: 25px; */
+/*     } */
+/*     .text img{width: 400px;} */
+
+/*     .login{ */
+/*         width: 680px;height: 310px; */
+/*         background: url(../images/kong.png); */
+/*         box-shadow: 0 0 10px 5px #468fbe; */
+/*     } */
+/*     .login{ */
+/*         width: 680px;height: 310px; */
+/*         background: url(../images/kong.png); */
+/*         box-shadow: 0 0 10px 5px #468fbe; */
+/*     } */
+/*     左边的三角 */
+/*     .login-left img{ */
+/*         position: relative; */
+/*         height: 310px; */
+/*     } */
+/*     .sanjiao{ */
+/*         border: 14px solid transparent; */
+/*         right: 0;top: 40px; */
+/*     } */
+/*     .login-right{ */
+/*         width: 449px;height: 100%; */
+/*         padding: 25px 40px; */
+/*     } */
+/*     login start */
+/*     .top{ */
+/*         height: 20px;width: 100%; */
+/*         margin-bottom: 15px; */
+/*     } */
+/*     .top span:nth-child(1){ */
+/*         font-size: 20px; */
+/*         color: #B7883E; */
+/*     } */
+/*     .top span:nth-child(2){ */
+/*         font-size: 20px; */
+/*         color: #ccc; */
+/*     } */
+/*     账号 密码输入框 */
+/*     .login-input{ */
+/*         margin-top: 23px; */
+/*         width: 100%; */
+/*         height: 35px; */
+/*         border: 1px solid #BAC7D2; */
+/*         border-radius: 10px; */
+/*         background: #ECF5FA; */
+/*         position: relative; */
+/*     } */
+/*     .icon{ */
+/*         width: 10%;height: 35px; */
+/*     } */
+/*     .icon img{ */
+/*         width: 20px; */
+/*         margin-top: 8px; */
+/*     } */
+/*     .login-input input{ */
+/*         height: 100%; */
+/*         width: 80%; */
+/*         font-size: 15px; */
+/*     } */
+/*     #login .login-input:nth-child(3){ */
+/*         width: 100%;height: 35px; */
+/*         border: 0; */
+/*         position: relative; */
+/*     } */
+/*     #login .login-input:nth-child(3) input{ */
+/*         width: 35%;height: 35px; */
+/*         font-size: 16px; */
+/*         color: #333; */
+/*         padding: 0 15px; */
+/*         margin-right: 20px; */
+/*     } */
+/*     .yan-ma{ */
+/*         width: 20%;height: 29px; */
+/*         background: #ccc; */
+/*         margin-top: 3px; */
+/*     } */
+/*     #login .login-input:nth-child(3) a{ */
+/*         vertical-align: bottom; */
+/*         position: absolute;bottom: 5px; */
+/*         color: #333; */
+/*     } */
+/*     登录按钮 */
+/*     注册 登录 */
+/*     .login-bottom{ */
+/*         width: 100%;height: 40px; */
+/*         padding: 0 10px; */
+/*         margin-top: 30px; */
+/*     } */
+/*     .pass{ */
+/*         padding: 0;margin-left: 0; */
+/*     } */
+/*     #login-sub{ */
+/*         width: 100px;height: 35px; */
+/*         border-radius: 10px; */
+/*         font-size: 20px; */
+/*         line-height: 35px; */
+/*         text-align: center; */
+/*         cursor: pointer; */
+/*         margin-top: 0; */
+/*         border: 0; */
+/*         outline-style: none; */
+/*     } */
+
+
+/*     login end */
+/*     .login-zi1{ */
+/*         width: 230px;height: 23px; */
+/*         font-size: 15px; */
+/*         color: red; */
+/*         line-height: 23px; */
+/*         position: absolute; */
+/*         top: 35px; */
+/*         left: 30px; */
+/*     } */
+/* } */
+
