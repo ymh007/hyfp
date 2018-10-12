@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* 你自己的样式 */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+.list-screen{border:1px solid #ddd;}
+.screen-top{padding:8px 0;background-color:#f6f6f6;}
+.screen-top span{font-size:14px;padding-left:15px;}
+.screen-top span input{
+	box-sizing: border-box;
+	border: solid 1px #ddd;
+    font-size: 14px;
+    height: 31px;
+    line-height: 1.42857;
+    padding: 4px;
+	width:200px;
+	/* width: 100%; */
+	/* -webkit-transition: all .2s linear 0s; */
+	-moz-transition: all .2s linear 0s;
+	-o-transition: all .2s linear 0s;
+	/* transition: all .2s linear 0s; */
+}
+.screenBox dl{border-bottom:#e6e6e6 1px dashed;overflow:hidden;padding:8px 0;_zoom:1;}
+.screenBox dl.noborder{border-bottom:0px;border-left:0px;border-top:0px;border-right:0px;}
+.screenBox dl.goodstype{border-bottom:#e6e6e6 1px dashed;}
+.screenBox dl dt{float:left;}
+.screenBox dl dt{text-align:left;width:80px;font-weight:600;}
+.screenBox dl dd{position:relative;padding-left:0px;width:90%;padding-right:48px;float:left;padding-top:0px;vertical-align:middle;}
+.screenBox dl dd label{line-height:14px;margin:0px 25px 0px 0px;color:#666;overflow:hidden;text-decoration:none;float:left;display:block;vertical-align:middle;}
+.screenBox dl dd label input{float:left;width:13px;height:13px;margin-right:3px;margin-top:5px;}
+.screenBox dl dd label a{padding:5px 10px 5px 5px;display:inline-block;}
+.screenBox dl dd a:hover{background-color:#39c;color:#fff;}
+.screenBox dl dd a.selected{background:#39c;color:#fff;}
+.screenBox dl dd span.more{position:absolute;width:39px;display:block;height:14px;top:5px;cursor:pointer;right:1px;}
+.screenBox dl dd span.more em{background:url(../images/jdlist_434.png) no-repeat 0 5px;display:inline-block;float:right;width:10px;height:14px;}
+.hasBeenSelected{border-top:#ddd 1px solid;padding:2px;overflow:hidden;background:#f5f9fa;position:relative;}
+.hasBeenSelected dl{overflow:hidden;border-bottom:0px;}
+.hasBeenSelected dl dt{float:left;}
+.hasBeenSelected dl dd{float:left;}
+.hasBeenSelected dl dt{text-align:right;width:78px;}
+.hasBeenSelected dl dd{padding-left:0px;width:80%;padding-right:0px;padding-top:0px;}
+.selectedInfor{border-bottom:#f60 1px solid;position:relative;border-left:#f60 1px solid;padding-bottom:1px;margin:4px 10px 0px 0px;padding-left:5px;padding-right:17px;display:block;white-space:nowrap;background:#fff;float:left;height:17px;border-top:#f60 1px solid;border-right:#f60 1px solid;padding-top:1px;}
+.selectedInfor label{color:#f60;}
+.eliminateCriteria{line-height:21px;margin-top:4px;width:130px;float:left;color:#118ecc;cursor:pointer;}
+
+.px_icon {
+    cursor: pointer;
+    padding: 0 20px 0 5px;
+}
+.px_link{
+    background-image: url(../images/default.png) ;
+    background-repeat:no-repeat;
+    background-position: right -2px bottom 0px;
+}
+
+.px_down {
+    background-image: url(../images/down.png);
+    background-repeat:no-repeat;
+    background-position: right 0px bottom 3px;
+}
+
+.px_up {
+    background-image: url(../images/up.png);
+    background-repeat:no-repeat;
+    background-position: right 0px bottom 3px;
+}
