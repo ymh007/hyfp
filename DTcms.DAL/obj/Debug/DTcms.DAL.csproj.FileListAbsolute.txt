@@ -174,3 +174,14 @@ D:\项目\HYFP\DTcms.DAL\bin\Debug\DTcms.Model.pdb
 D:\项目\HYFP\DTcms.DAL\obj\Debug\DTcms.DAL.csprojResolveAssemblyReference.cache
 D:\项目\HYFP\DTcms.DAL\obj\Debug\DTcms.DAL.dll
 D:\项目\HYFP\DTcms.DAL\obj\Debug\DTcms.DAL.pdb
+D:\hyfp\hyfp\DTcms.DAL\bin\Debug\DTcms.DAL.dll
+D:\hyfp\hyfp\DTcms.DAL\bin\Debug\DTcms.DAL.pdb
+D:\hyfp\hyfp\DTcms.DAL\bin\Debug\DTcms.Common.dll
+D:\hyfp\hyfp\DTcms.DAL\bin\Debug\DTcms.DBUtility.dll
+D:\hyfp\hyfp\DTcms.DAL\bin\Debug\DTcms.Model.dll
+D:\hyfp\hyfp\DTcms.DAL\bin\Debug\DTcms.Common.pdb
+D:\hyfp\hyfp\DTcms.DAL\bin\Debug\DTcms.DBUtility.pdb
+D:\hyfp\hyfp\DTcms.DAL\bin\Debug\DTcms.Model.pdb
+D:\hyfp\hyfp\DTcms.DAL\obj\Debug\DTcms.DAL.csprojResolveAssemblyReference.cache
+D:\hyfp\hyfp\DTcms.DAL\obj\Debug\DTcms.DAL.dll
+D:\hyfp\hyfp\DTcms.DAL\obj\Debug\DTcms.DAL.pdb

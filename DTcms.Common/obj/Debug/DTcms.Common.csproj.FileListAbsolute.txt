@@ -77,3 +77,7 @@ D:\项目\HYFP\DTcms.Common\bin\Debug\DTcms.Common.pdb
 D:\项目\HYFP\DTcms.Common\obj\Debug\DTcms.Common.dll
 D:\项目\HYFP\DTcms.Common\obj\Debug\DTcms.Common.pdb
 D:\项目\HYFP\DTcms.Common\obj\Debug\DTcms.Common.csprojResolveAssemblyReference.cache
+D:\hyfp\hyfp\DTcms.Common\bin\Debug\DTcms.Common.dll
+D:\hyfp\hyfp\DTcms.Common\bin\Debug\DTcms.Common.pdb
+D:\hyfp\hyfp\DTcms.Common\obj\Debug\DTcms.Common.dll
+D:\hyfp\hyfp\DTcms.Common\obj\Debug\DTcms.Common.pdb

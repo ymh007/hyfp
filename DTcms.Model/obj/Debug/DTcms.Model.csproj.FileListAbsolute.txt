@@ -110,3 +110,10 @@ D:\项目\HYFP\DTcms.Model\bin\Debug\DTcms.Common.pdb
 D:\项目\HYFP\DTcms.Model\obj\Debug\DTcms.Model.csprojResolveAssemblyReference.cache
 D:\项目\HYFP\DTcms.Model\obj\Debug\DTcms.Model.dll
 D:\项目\HYFP\DTcms.Model\obj\Debug\DTcms.Model.pdb
+D:\hyfp\hyfp\DTcms.Model\bin\Debug\DTcms.Model.dll
+D:\hyfp\hyfp\DTcms.Model\bin\Debug\DTcms.Model.pdb
+D:\hyfp\hyfp\DTcms.Model\bin\Debug\DTcms.Common.dll
+D:\hyfp\hyfp\DTcms.Model\bin\Debug\DTcms.Common.pdb
+D:\hyfp\hyfp\DTcms.Model\obj\Debug\DTcms.Model.csprojResolveAssemblyReference.cache
+D:\hyfp\hyfp\DTcms.Model\obj\Debug\DTcms.Model.dll
+D:\hyfp\hyfp\DTcms.Model\obj\Debug\DTcms.Model.pdb
